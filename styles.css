@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Scream Real';
+  src: url('fonts/ScreamReal.ttf') format('truetype'), url('fonts/ScreamReal.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #121212;
+}
+
+td, th {
+  border: 2px solid #404040;
+  width: 75px;
+  height: 75px;
+}
+
+#board-table {
+  border-collapse: separate;
+  border-spacing: 3px 3px;
+  border: 0;
+}
+
+#title {
+  text-align: center;
+  color: green;
+  font-family: 'Scream Real';
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.game-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
